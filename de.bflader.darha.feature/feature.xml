@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="de.bflader.darha.feature"
-      label="Feature"
+      label="Darha Feature"
       version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">

@@ -3,11 +3,15 @@
 <plugin>
 
    <extension
-         id="product"
+         id="darha"
          point="org.eclipse.core.runtime.products">
       <product
-            name=""
+            name="Darha"
             application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="Darha">
+         </property>
       </product>
    </extension>
 

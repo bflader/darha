@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product uid="de.bflader.darha.product" id="de.bflader.darha.application.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
+<product name="Darha" uid="de.bflader.darha.product" id="de.bflader.darha.application.darha" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
 
    <configIni use="default">
    </configIni>
@@ -15,7 +15,7 @@
 
    <windowImages/>
 
-   <launcher>
+   <launcher name="Darha">
       <win useIco="false">
          <bmp/>
       </win>
