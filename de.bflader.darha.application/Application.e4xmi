@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_c3AF0MjYEeSyMNYR5xypkQ" elementId="de.bflader.darha.application" bindingContexts="_c3AF2cjYEeSyMNYR5xypkQ">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Empty E4 Application" width="500" height="400"/>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Darha" width="500" height="400">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_fC15sAfuEe6cWvI41QSRxA" elementId="de.bflader.darha.application.partsashcontainer" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_fr3BgAfuEe6cWvI41QSRxA" elementId="de.bflader.darha.application.filter.partstack">
+        <children xsi:type="basic:Part" xmi:id="_jClswAfuEe6cWvI41QSRxA" elementId="de.bflader.darha.application.filter.part" label="Filter">
+          <toolbar xmi:id="_NF3hUAfvEe6cWvI41QSRxA" elementId="de.bflader.darha.application.toolbar.0"/>
+        </children>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_r-po0AfuEe6cWvI41QSRxA" elementId="de.bflader.darha.application.main.partstack">
+        <children xsi:type="basic:Part" xmi:id="_zBFJwAfuEe6cWvI41QSRxA" elementId="de.bflader.darha.application.lessons.part" label="Lessons">
+          <toolbar xmi:id="_OD8TIAfvEe6cWvI41QSRxA" elementId="de.bflader.darha.application.toolbar.1"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_RGQNkAfvEe6cWvI41QSRxA" elementId="de.bflader.darha.application.menu.0"/>
+  </children>
   <rootContext xmi:id="_c3AF2cjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_c3AF2sjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_c3AF28jYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
